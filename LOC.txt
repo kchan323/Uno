@@ -1,0 +1,6 @@
+Some of our helper functions with specifications, “used for testing purposes,” 
+were used extensively to help us debug our code and make sure everything was 
+working. We checked with our TA who confirmed that these functions are not 
+considered “dead code.” Some test cases may seem unnecessary or repetitive, but 
+these were added to test different cases and increase the bisect score for 
+helper functions that were not made public in the .mli files.

@@ -1,0 +1,26 @@
+Here are the rules for the normal version of our UNO game! 
+  ▶ UNO can be played with 2-4 players who will take turns on one terminal. 💻 
+    ▶ Please enter usernames that are one word (no spaces and unique). 
+  ▶ Most rules are similar to the UNO card game with some additional rules below!
+    ▶ If [player1] drops a Draw2 or WildcardDraw4 on [player2], those cards will be added to [player2]'s hand but [player2] will still have a turn. 
+    ▶ Special cards can not be stacked! Dropping a Draw2 on top of another Draw2 does NOT mean the next player will get +4 cards. 
+    ▶ For 2 player games, using a Skip card will let the current player play again.
+    ▶ Each player starts with 7 random card and can win by being the first player to get rid of all your cards 🤩!
+    ▶ If no one wins after 50 cards have been drawn, the game will end ⌛️.
+  
+  ▶ At your turn, you can enter one of these (non case sensitive) commands:
+    ▶ drop [card]:     drop any card that matches the color, number or special action of the top card. This card will be removed from your hand.
+                       The card has to be written using the full name and not the abbreviation.
+                       Ex: drop Blue 3, drop wildcarddraw4
+
+    ▶ draw:            a random card will be added to your hand and if it matches the top card, you are able to drop it in the same turn.
+
+    ▶ dropuno [card]:  when you are about to drop your second to last card, you can use this to call "UNO!" and then drop your card. 
+                       if you do not call "UNO!", then other players can call uno on you and a card will be added to your hand.
+                       Ex: dropuno Red 3
+
+    ▶ uno_on [player]: call this on a [player] who has one card left but hasn't called uno to add a card to their deck and then finish making your move. 
+                       Ex: uno_on Ein
+    
+    ▶ quit: ends the game for everyone 
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------

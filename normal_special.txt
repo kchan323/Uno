@@ -1,0 +1,4 @@
+           Would you like to play the normal or special version? The special version has some extra special cards like swap and discard all!
+                                                          
+                                                          Enter n for normal or s for special.
+                                                                
